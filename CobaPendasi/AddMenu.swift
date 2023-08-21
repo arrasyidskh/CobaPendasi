@@ -21,10 +21,10 @@ struct AddMenu: View {
         Protein(name: "Keju", imageName: "Keju")
     ]
     let carbohidrats: [Carbohydrate] = [
-        Carbohydrate(name: "Nasi", imageName: "nasi"),
-        Carbohydrate(name: "Kentang", imageName: "kentang"),
-        Carbohydrate(name: "Pasta", imageName: "pasta"),
-        Carbohydrate(name: "Jagung", imageName: "jagung")
+        Carbohydrate(name: "Nasi", imageName: "Nasi"),
+        Carbohydrate(name: "Kentang", imageName: "Kentang"),
+        Carbohydrate(name: "Pasta", imageName: "Pasta"),
+        Carbohydrate(name: "Jagung", imageName: "Jagung")
     ]
     let sideDishes = ["Brokoli", "Wortel", "Bayam", "Kacang Merah", "Tahu", "Tempe", "Buncis"]
     var body: some View {
