@@ -11,6 +11,18 @@
 		F9B496302A34CBFA0060F0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B4962F2A34CBFA0060F0C3 /* ContentView.swift */; };
 		F9B496322A34CBFB0060F0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B496312A34CBFB0060F0C3 /* Assets.xcassets */; };
 		F9B496352A34CBFB0060F0C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B496342A34CBFB0060F0C3 /* Preview Assets.xcassets */; };
+		F9B4963F2A34CD430060F0C3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B4963E2A34CD430060F0C3 /* DataController.swift */; };
+		F9B496422A34E9790060F0C3 /* MpasiOption.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9B496402A34E9790060F0C3 /* MpasiOption.xcdatamodeld */; };
+		F9B496462A34EBDD0060F0C3 /* AddMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496452A34EBDD0060F0C3 /* AddMenu.swift */; };
+		F9B496482A35A8D00060F0C3 /* BeritahuRespon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496472A35A8D00060F0C3 /* BeritahuRespon.swift */; };
+		F9B4964A2A35AC3E0060F0C3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496492A35AC3E0060F0C3 /* DetailView.swift */; };
+		F9B496832A3645180060F0C3 /* ProfilAnak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496822A3645180060F0C3 /* ProfilAnak.swift */; };
+		F9B496852A3645490060F0C3 /* EditProfilAnak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496842A3645490060F0C3 /* EditProfilAnak.swift */; };
+		F9B4968E2A36C4590060F0C3 /* GantiMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B4968D2A36C4590060F0C3 /* GantiMenu.swift */; };
+		F9B496902A37764E0060F0C3 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B4968F2A37764E0060F0C3 /* TabView.swift */; };
+		F9B496922A3776DD0060F0C3 /* Riwayat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496912A3776DD0060F0C3 /* Riwayat.swift */; };
+		F9B496942A3777000060F0C3 /* DetailRiwayat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496932A3777000060F0C3 /* DetailRiwayat.swift */; };
+		F9B496962A3777340060F0C3 /* Pemberitahuan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B496952A3777340060F0C3 /* Pemberitahuan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		F9B4962F2A34CBFA0060F0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9B496312A34CBFB0060F0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B496342A34CBFB0060F0C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9B4963E2A34CD430060F0C3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F9B496412A34E9790060F0C3 /* MpasiOption.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MpasiOption.xcdatamodel; sourceTree = "<group>"; };
+		F9B496452A34EBDD0060F0C3 /* AddMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMenu.swift; sourceTree = "<group>"; };
+		F9B496472A35A8D00060F0C3 /* BeritahuRespon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritahuRespon.swift; sourceTree = "<group>"; };
+		F9B496492A35AC3E0060F0C3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F9B496822A3645180060F0C3 /* ProfilAnak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilAnak.swift; sourceTree = "<group>"; };
+		F9B496842A3645490060F0C3 /* EditProfilAnak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilAnak.swift; sourceTree = "<group>"; };
+		F9B4968D2A36C4590060F0C3 /* GantiMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GantiMenu.swift; sourceTree = "<group>"; };
+		F9B4968F2A37764E0060F0C3 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		F9B496912A3776DD0060F0C3 /* Riwayat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riwayat.swift; sourceTree = "<group>"; };
+		F9B496932A3777000060F0C3 /* DetailRiwayat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRiwayat.swift; sourceTree = "<group>"; };
+		F9B496952A3777340060F0C3 /* Pemberitahuan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pemberitahuan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +77,18 @@
 			children = (
 				F9B4962D2A34CBFA0060F0C3 /* CobaPendasiApp.swift */,
 				F9B4962F2A34CBFA0060F0C3 /* ContentView.swift */,
+				F9B496452A34EBDD0060F0C3 /* AddMenu.swift */,
+				F9B4968F2A37764E0060F0C3 /* TabView.swift */,
+				F9B4968D2A36C4590060F0C3 /* GantiMenu.swift */,
+				F9B496912A3776DD0060F0C3 /* Riwayat.swift */,
+				F9B496932A3777000060F0C3 /* DetailRiwayat.swift */,
+				F9B496952A3777340060F0C3 /* Pemberitahuan.swift */,
+				F9B496472A35A8D00060F0C3 /* BeritahuRespon.swift */,
+				F9B496492A35AC3E0060F0C3 /* DetailView.swift */,
+				F9B496822A3645180060F0C3 /* ProfilAnak.swift */,
+				F9B496842A3645490060F0C3 /* EditProfilAnak.swift */,
+				F9B4963E2A34CD430060F0C3 /* DataController.swift */,
+				F9B496402A34E9790060F0C3 /* MpasiOption.xcdatamodeld */,
 				F9B496312A34CBFB0060F0C3 /* Assets.xcassets */,
 				F9B496332A34CBFB0060F0C3 /* Preview Content */,
 			);
@@ -77,6 +113,7 @@
 				F9B496262A34CBFA0060F0C3 /* Sources */,
 				F9B496272A34CBFA0060F0C3 /* Frameworks */,
 				F9B496282A34CBFA0060F0C3 /* Resources */,
+				0AAEC3A32A8CD9350062C85F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,13 +169,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AAEC3A32A8CD9350062C85F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9B496262A34CBFA0060F0C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B496902A37764E0060F0C3 /* TabView.swift in Sources */,
+				F9B496832A3645180060F0C3 /* ProfilAnak.swift in Sources */,
 				F9B496302A34CBFA0060F0C3 /* ContentView.swift in Sources */,
+				F9B496462A34EBDD0060F0C3 /* AddMenu.swift in Sources */,
+				F9B4963F2A34CD430060F0C3 /* DataController.swift in Sources */,
+				F9B496962A3777340060F0C3 /* Pemberitahuan.swift in Sources */,
+				F9B4964A2A35AC3E0060F0C3 /* DetailView.swift in Sources */,
+				F9B496852A3645490060F0C3 /* EditProfilAnak.swift in Sources */,
 				F9B4962E2A34CBFA0060F0C3 /* CobaPendasiApp.swift in Sources */,
+				F9B496482A35A8D00060F0C3 /* BeritahuRespon.swift in Sources */,
+				F9B496922A3776DD0060F0C3 /* Riwayat.swift in Sources */,
+				F9B4968E2A36C4590060F0C3 /* GantiMenu.swift in Sources */,
+				F9B496422A34E9790060F0C3 /* MpasiOption.xcdatamodeld in Sources */,
+				F9B496942A3777000060F0C3 /* DetailRiwayat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +408,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9B496402A34E9790060F0C3 /* MpasiOption.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9B496412A34E9790060F0C3 /* MpasiOption.xcdatamodel */,
+			);
+			currentVersion = F9B496412A34E9790060F0C3 /* MpasiOption.xcdatamodel */;
+			path = MpasiOption.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9B496222A34CBFA0060F0C3 /* Project object */;
 }

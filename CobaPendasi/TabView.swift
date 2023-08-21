@@ -1,20 +1,29 @@
-//
-//  TabView.swift
-//  CobaPendasi
-//
-//  Created by Apriliando Adhi Rinaldy on 12/06/23.
-//
-
 import SwiftUI
 
-struct TabView: View {
+struct TabVIew: View {
+    init() {
+        UITabBar.appearance().backgroundColor = .white
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Group {
+                AddMenu()
+                    .tabItem {
+                        Label("Rencana MPASI", systemImage: "square.and.pencil")
+                    }
+                Riwayat()
+                    .tabItem {
+                        Label("Riwayat", systemImage: "clock.arrow.2.circlepath")
+                    }
+                    .ignoresSafeArea()
+            }
+        }
+        .navigationBarBackButtonHidden(true)            .navigationBarTitle("", displayMode: .inline)
     }
 }
 
-struct TabView_Previews: PreviewProvider {
+struct TabVIew_Previews: PreviewProvider {
     static var previews: some View {
-        TabView()
+        TabVIew()
     }
 }

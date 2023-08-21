@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CobaPendasiApp: App {
+    @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Content()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

@@ -1,9 +1,10 @@
 import SwiftUI
 
 struct ProfilAnak: View {
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(sortDescriptors: []) var mpasiMenu: FetchedResults<MpasiMenu>
     let name: String
     let birthdate: Date
-    
     var body: some View {
         NavigationView {
             ZStack {
@@ -53,20 +54,12 @@ struct ProfilAnak: View {
             }
         }
     }
-    
     func dateToString(date: Date) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "dd MMMM yyyy"
         return formatter.string(from: date)
     }
 }
-
-//struct EditProfilAnak: View {
-//    var body: some View {
-//        Text("Editing Profile")
-//    }
-//}
-
 struct ProfilAnak_Previews: PreviewProvider {
     static var previews: some View {
         ProfilAnak(name: "Input Your Child Name", birthdate: Date())

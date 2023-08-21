@@ -1,20 +1,161 @@
-//
-//  DetailView.swift
-//  CobaPendasi
-//
-//  Created by Apriliando Adhi Rinaldy on 11/06/23.
-//
-
 import SwiftUI
 
-struct DetailView: View {
+struct Detail: View {
+    let menu: AddMenu.Menu
+    let waktuMenyiapkan: Int = 0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailView()
+        VStack {
+            Text(menu.name)
+                .font(.title2)
+                .padding()
+            HStack {
+                Image(menu.proteinImageName)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                Image(menu.carbohydrateImageName)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+            }
+            .navigationBarTitle("Detail Menu")
+        }
+        Group {
+            Text("BAHAN UTAMA")
+                .font(.caption)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.leading)
+                .padding(.trailing, 270.0)
+                .padding(.top, 20)
+                .foregroundColor(Color("Abu1"))
+            Divider()
+            HStack {
+                Text("Protein")
+                    .font(.body)
+                    .fontWeight(.regular)
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Daging Ayam")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("-")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("100")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("gram")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+            }
+            .frame(width: 360, height: 20)
+            Divider()
+            HStack {
+                Text("Karbohidrat")
+                    .font(.body)
+                    .fontWeight(.regular)
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Kentang")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("-")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("100")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+                Text("Gram")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+            }
+            .frame(width: 360, height: 20)
+            Divider()
+        }
+        Group {
+            Text("REKOMENDASI PENDAMPING (Opsional)")
+                .font(.caption)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.leading)
+                .foregroundColor(Color("Abu1"))
+                .padding(.trailing, 115.0)
+                .padding(.top, 20)
+            Divider()
+            HStack {
+                Text("Serat")
+                    .font(.body)
+                    .fontWeight(.regular)
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Bayam")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+            }
+            .frame(width: 360, height: 20)
+            Divider()
+            HStack {
+                Text("Protein Nabati")
+                    .font(.body)
+                    .fontWeight(.regular)
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Tempe")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+            }
+            .frame(width: 360, height: 20)
+            Divider()
+            HStack {
+                Text("Lemak")
+                    .font(.body)
+                    .fontWeight(.regular)
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Minyak Zaitun")
+                    .font(.body)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color("Abu1"))
+            }
+            .frame(width: 360, height: 20)
+            Divider()
+        }
+        ZStack {
+            Group {
+                RoundedRectangle(cornerRadius: 12)
+                    .frame(width: 358.0, height: 121.0)
+                    .foregroundColor(Color("Biru"))
+                RoundedRectangle(cornerRadius: 12)
+                    .frame(width: 355.0, height: 118.0)
+                    .foregroundColor(.white)
+                Text("Wow Fakta")
+                    .font(.body)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color("Biru"))
+                    .multilineTextAlignment(.leading)
+                    .padding(.trailing, 252.0)
+                    .padding(.bottom, 70.0)
+                Text("Bayi makan daging sapi? Mereka jadi sapi-sapi kecil berenergi, Haha!")
+                    .font(.caption)
+                    .fontWeight(.regular)
+                    .multilineTextAlignment(.leading)
+                    .frame(width: 345.0, height: 70.0)
+                    .padding(.top, 20)
+            }
+        }
+        .toolbarBackground(Color.white, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
     }
 }
